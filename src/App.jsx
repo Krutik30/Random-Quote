@@ -341,11 +341,11 @@ class App extends React.Component {
     render() {
       return (
         <div class="box" style={{backgroundColor: this.randomColor()}}>
-            <h2>Random Quotes</h2>
-          <h1 className='quote'>{this.state.quote}</h1>
+            <h4>Random Quotes</h4>
+          <h2 className='quote'>{this.state.quote}</h2>
           <blockquote className='author'>~ {this.state.author}</blockquote>
-          <button className='btn' style={{backgroundColor: "white"}} onClick={this.shuffle}>New Quote</button>
-          <span style={{backgroundColor: "white"}}>
+          <button className='btn' onClick={this.shuffle}>New Quote</button>
+          <span>
             <a
                 className="twitter-share-button"
                 href="https://twitter.com/share"
