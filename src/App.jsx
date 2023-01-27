@@ -347,7 +347,7 @@ class App extends React.Component {
           <button className='btn' onClick={this.shuffle}>New Quote</button>
           <span>
             <a
-                className="twitter-share-button"
+                className="twitter-share-button blue"
                 href="https://twitter.com/share"
                 data-text="testing"
                 data-size="large"
@@ -355,7 +355,8 @@ class App extends React.Component {
                 data-hashtags="freeCodeCamp,quotes"
                 target={"_blanks"}
             >
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa fa-twitter" style={{fontSize: 30}}></i>
+
             </a>
           </span>
         </div>
